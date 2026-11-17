@@ -87,31 +87,6 @@ status: Open for impactful AI projects & collaboration
 
 ---
 
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khanh1912005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Gia Khanh's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanh1912005&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165" />
-</div>
-
-<div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=khanh1912005&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
----
-
-### 🐍 Contribution Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khanh1912005/khanh1912005/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khanh1912005/khanh1912005/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/khanh1912005/khanh1912005/output/github-contribution-grid-snake-dark.svg">
-  </picture>
-</div>
-
----
-
 ### 🤝 Connect with Me
 
 <p align="center">
