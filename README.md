@@ -19,10 +19,10 @@ stack_highlights: [LangGraph, FastAPI, PyTorch, ChromaDB, InsightFace]
 status: Open for impactful AI projects & collaboration
 ```
 
-- 🔭 **Current Focus:** Nghiên cứu và xây dựng các hệ sinh thái **AI Agents (LangGraph)**, kiến trúc **RAG tối ưu**, và các giải pháp **Computer Vision**.
-- 💡 **Passion:** Kết nối mô hình AI tiên tiến với ứng dụng full-stack thực tế, giải quyết bài toán tự động hóa thông minh cho doanh nghiệp.
-- 🧠 **Exploring:** Multi-Agent Workflows, Vision-Language Models (VLMs), InsightFace & Model Optimization (ONNX/TensorRT).
-- 💬 **Ask me about:** AI Agents, LangGraph, RAG Pipelines, Vector Databases (ChromaDB), FastAPI & PyTorch.
+- 🔭 **Current Focus:** Designing and developing **Autonomous AI Agents (LangGraph)**, optimized **RAG pipelines**, and **Computer Vision** systems.
+- 💡 **Passion:** Bridging the gap between cutting-edge AI research and high-performance production applications to solve enterprise-level challenges.
+- 🧠 **Exploring:** Multi-Agent Workflows, Vision-Language Models (VLMs), InsightFace & Model Optimization (ONNX / TensorRT).
+- 💬 **Ask me about:** AI Agents, LangGraph, RAG Architectures, Vector Databases (ChromaDB), FastAPI & PyTorch.
 - 📬 **Reach out:** [khanh2292005@gmail.com](mailto:khanh2292005@gmail.com)
 
 ---
@@ -34,7 +34,7 @@ status: Open for impactful AI projects & collaboration
     <td width="100%">
       <h3 align="left">🤖 Enterprise Customer Support AI Platform</h3>
       <p align="left">
-        Nền tảng hỗ trợ khách hàng đa kênh ứng dụng <b>Agentic AI</b> & <b>RAG</b> thông minh, tự động hóa xử lý hội thoại phức tạp và truy vấn dữ liệu doanh nghiệp thời gian thực.
+        A full-stack, AI-powered multi-channel customer support platform leveraging <b>Agentic AI</b> & <b>RAG</b> to automate complex workflows and query enterprise knowledge bases in real time.
       </p>
       <p align="left">
         <a href="https://github.com/khanh1912005/enterprise-customer-support-ai-agent">
