@@ -7,7 +7,7 @@
 
 <rect x="22" y="52" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="22" y="52" width="3" height="38" rx="1.5" fill="#0d87cd" opacity="0.7"/>
-<text x="32" y="68" fill="#0d87cd" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">8</text>
+<text x="32" y="68" fill="#0d87cd" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">9</text>
 <text x="32" y="82" fill="#7a9cc0" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Total Commits</text>
 <rect x="162" y="52" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="162" y="52" width="3" height="38" rx="1.5" fill="#22c55e" opacity="0.7"/>
@@ -31,7 +31,7 @@
 <text x="312" y="126" fill="#7a9cc0" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Issues Closed</text>
 <rect x="22" y="140" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="22" y="140" width="3" height="38" rx="1.5" fill="#fbbf24" opacity="0.7"/>
-<text x="32" y="156" fill="#fbbf24" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">2</text>
+<text x="32" y="156" fill="#fbbf24" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">0</text>
 <text x="32" y="170" fill="#7a9cc0" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Total Stars</text>
 <rect x="162" y="140" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="162" y="140" width="3" height="38" rx="1.5" fill="#fb923c" opacity="0.7"/>
@@ -47,7 +47,7 @@
 <text x="32" y="214" fill="#7a9cc0" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Followers</text>
 <rect x="162" y="184" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="162" y="184" width="3" height="38" rx="1.5" fill="#34d399" opacity="0.7"/>
-<text x="172" y="200" fill="#34d399" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">8</text>
+<text x="172" y="200" fill="#34d399" font-size="16" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">9</text>
 <text x="172" y="214" fill="#7a9cc0" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Contributions</text>
 <rect x="302" y="184" width="132" height="38" rx="6" fill="#060d24"/>
 <rect x="302" y="184" width="3" height="38" rx="1.5" fill="#60a5fa" opacity="0.7"/>
