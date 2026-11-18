@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="252" viewBox="0 0 460 252" role="img" aria-label="Trophies">
+<polygon points="0,0 448,0 460,12 460,252 12,252 0,240" fill="#ffffff"/>
+<polygon points="0,0 448,0 460,12 460,252 12,252 0,240" fill="none" stroke="#d0d7de" stroke-width="1"/>
+<rect x="20" y="22" width="3" height="14" rx="1.5" fill="#0d87cd"/>
+<text x="30" y="34" fill="#1a2332" font-size="13" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Trophies</text>
+    <rect x="20" y="52" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="20" y="52" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#4a6a8a" stroke-width="1" opacity="0.3"/>
+    <circle cx="88.66666666666667" cy="70" r="11" fill="#4a6a8a" opacity="0.12"/>
+    <text x="88.66666666666667" y="74" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="88.66666666666667" y="92" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">14</text>
+    <circle cx="63.7" cy="112" r="2.5" fill="#4a6a8a"/><circle cx="73.7" cy="112" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="83.7" cy="112" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="93.7" cy="112" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="103.7" cy="112" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="113.7" cy="112" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/>
+    <text x="88.66666666666667" y="126" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Commits</text>
+    <rect x="165.33333333333334" y="52" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="165.33333333333334" y="52" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#8090a0" stroke-width="1" opacity="0.3"/>
+    <circle cx="234" cy="70" r="11" fill="#8090a0" opacity="0.12"/>
+    <text x="234" y="74" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="234" y="92" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">0</text>
+    <circle cx="209.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="219.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="229.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="239.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="249.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="259.0" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/>
+    <text x="234" y="126" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Pull Requests</text>
+    <rect x="310.6666666666667" y="52" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="310.6666666666667" y="52" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#8090a0" stroke-width="1" opacity="0.3"/>
+    <circle cx="379.33333333333337" cy="70" r="11" fill="#8090a0" opacity="0.12"/>
+    <text x="379.33333333333337" y="74" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="379.33333333333337" y="92" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">0</text>
+    <circle cx="354.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="364.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="374.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="384.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="394.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="404.3" cy="112" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/>
+    <text x="379.33333333333337" y="126" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Issues</text>
+    <rect x="20" y="142" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="20" y="142" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#4a6a8a" stroke-width="1" opacity="0.3"/>
+    <circle cx="88.66666666666667" cy="160" r="11" fill="#4a6a8a" opacity="0.12"/>
+    <text x="88.66666666666667" y="164" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="88.66666666666667" y="182" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">2</text>
+    <circle cx="63.7" cy="202" r="2.5" fill="#4a6a8a"/><circle cx="73.7" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="83.7" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="93.7" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="103.7" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="113.7" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/>
+    <text x="88.66666666666667" y="216" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Stars</text>
+    <rect x="165.33333333333334" y="142" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="165.33333333333334" y="142" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#8090a0" stroke-width="1" opacity="0.3"/>
+    <circle cx="234" cy="160" r="11" fill="#8090a0" opacity="0.12"/>
+    <text x="234" y="164" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="234" y="182" fill="#8090a0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">0</text>
+    <circle cx="209.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="219.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="229.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="239.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="249.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/><circle cx="259.0" cy="202" r="2.5" fill="none" stroke="#8090a0" stroke-width="0.8" opacity="0.3"/>
+    <text x="234" y="216" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Followers</text>
+    <rect x="310.6666666666667" y="142" width="137.33333333333334" height="82" rx="8" fill="#f6f8fa"/>
+    <rect x="310.6666666666667" y="142" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#4a6a8a" stroke-width="1" opacity="0.3"/>
+    <circle cx="379.33333333333337" cy="160" r="11" fill="#4a6a8a" opacity="0.12"/>
+    <text x="379.33333333333337" y="164" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
+    <text x="379.33333333333337" y="182" fill="#4a6a8a" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">3</text>
+    <circle cx="354.3" cy="202" r="2.5" fill="#4a6a8a"/><circle cx="364.3" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="374.3" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="384.3" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="394.3" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/><circle cx="404.3" cy="202" r="2.5" fill="none" stroke="#4a6a8a" stroke-width="0.8" opacity="0.3"/>
+    <text x="379.33333333333337" y="216" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Repos</text>
+</svg>

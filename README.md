@@ -16,7 +16,10 @@
 ### 🛸 Profile HUD
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=khanh1912005&theme=tokyonight" alt="Profile HUD" />
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
+    <img src="assets/profile.svg" alt="Profile HUD" width="100%">
+  </picture>
 </div>
 
 ---
@@ -25,8 +28,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github.spoko.space/stack?techs=Python,FastAPI,NumPy&theme=light">
-    <img src="https://github.spoko.space/stack?techs=Python,FastAPI,NumPy" alt="Tech Stack">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+    <img src="assets/stack.svg" alt="Tech Stack" width="100%">
   </picture>
 </div>
 
@@ -36,8 +39,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=khanh1912005&show_icons=true&theme=default">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=khanh1912005&bg_color=030620&title_color=0d87cd&text_color=e5ecf6&icon_color=0d87cd&border_color=0d2a4a&show_icons=true" alt="Stats">
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+    <img src="assets/stats.svg" alt="Stats" width="100%">
   </picture>
 </div>
 
@@ -45,8 +48,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=khanh1912005&theme=default">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=khanh1912005&background=030620&ring=0d87cd&fire=0d87cd&currStreakNum=e5ecf6&sideNums=e5ecf6&currStreakLabel=7a9cc0&sideLabels=7a9cc0&dates=4a6a8a&border=0d2a4a" alt="Streak">
+    <source media="(prefers-color-scheme: light)" srcset="assets/streak-light.svg">
+    <img src="assets/streak.svg" alt="Streak" width="100%">
   </picture>
 </div>
 
@@ -56,8 +59,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=khanh1912005&layout=compact&theme=default">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=khanh1912005&bg_color=030620&title_color=0d87cd&text_color=e5ecf6&border_color=0d2a4a&layout=compact" alt="Languages">
+    <source media="(prefers-color-scheme: light)" srcset="assets/langs-light.svg">
+    <img src="assets/langs.svg" alt="Languages" width="100%">
   </picture>
 </div>
 
@@ -66,7 +69,10 @@
 ### 🏆 Achievement Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophies.vercel.app/?username=khanh1912005&theme=onedark&no-frame=true&margin-w=4" alt="Trophies">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/trophies-light.svg">
+    <img src="assets/trophies.svg" alt="Trophies" width="100%">
+  </picture>
 </div>
 
 ---

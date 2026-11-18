@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200" role="img" aria-label="GitHub Profile">
+<polygon points="0,0 448,0 460,12 460,200 12,200 0,188" fill="#030620"/>
+<polygon points="0,0 448,0 460,12 460,200 12,200 0,188" fill="none" stroke="#0d2a4a" stroke-width="1"/>
+<style>
+    @keyframes glow-core { 0%,100%{opacity:.95}50%{opacity:.45} }
+    .pcore { animation: glow-core 2.5s ease-in-out infinite; }
+    .olabel { opacity:0; pointer-events:none; transition:opacity .15s; }
+    .odot { cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Cline x1='10' y1='0' x2='10' y2='20' stroke='%230d87cd' stroke-width='1.5'/%3E%3Cline x1='0' y1='10' x2='20' y2='10' stroke='%230d87cd' stroke-width='1.5'/%3E%3Ccircle cx='10' cy='10' r='3' fill='none' stroke='%230d87cd' stroke-width='1'/%3E%3C/svg%3E") 10 10, crosshair; }
+    svg:has(.odot-streak:hover)   .olabel-streak,
+    svg:has(.odot-commits:hover)  .olabel-commits,
+    svg:has(.odot-prs:hover)      .olabel-prs,
+    svg:has(.odot-stars:hover)    .olabel-stars,
+    svg:has(.odot-repos:hover)    .olabel-repos,
+    svg:has(.odot-followers:hover).olabel-followers { opacity:1; }
+  </style><defs>
+    <radialGradient id="pbg" cx="356" cy="100" r="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d87cd" stop-opacity=".13"/>
+      <stop offset="100%" stop-color="#030620" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="pglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="orbClip"><circle cx="356" cy="100" r="76"/></clipPath>
+    <path id="op30" d="M 386,100 A 30,30,0,1,1,326,100 A 30,30,0,1,1,386,100"/>
+    <path id="op53" d="M 409,100 A 53,53,0,1,1,303,100 A 53,53,0,1,1,409,100"/>
+    <path id="op76" d="M 432,100 A 76,76,0,1,1,280,100 A 76,76,0,1,1,432,100"/>
+    
+  </defs><circle cx="127.2" cy="142.4" r="0.4" fill="white" opacity="0.42"/><circle cx="162.0" cy="69.9" r="0.4" fill="white" opacity="0.45"/><circle cx="329.6" cy="102.8" r="0.3" fill="white" opacity="0.45"/><circle cx="412.1" cy="119.6" r="0.9" fill="white" opacity="0.28"/><circle cx="40.9" cy="29.8" r="0.7" fill="white" opacity="0.37"/><circle cx="145.1" cy="132.8" r="0.8" fill="white" opacity="0.43"/><circle cx="192.8" cy="164.4" r="0.5" fill="white" opacity="0.23"><animate attributeName="opacity" values="0.23;0.10;0.23" dur="3.1s" begin="8.4s" repeatCount="indefinite"/></circle><circle cx="190.1" cy="140.4" r="1.1" fill="white" opacity="0.35"/><circle cx="362.0" cy="129.5" r="0.3" fill="white" opacity="0.26"/><circle cx="298.9" cy="185.4" r="1.1" fill="white" opacity="0.46"/><circle cx="173.1" cy="62.3" r="0.6" fill="white" opacity="0.45"><animate attributeName="opacity" values="0.45;0.19;0.45" dur="4.2s" begin="4.9s" repeatCount="indefinite"/></circle><circle cx="239.4" cy="127.4" r="0.4" fill="white" opacity="0.30"/><circle cx="46.2" cy="69.3" r="0.7" fill="white" opacity="0.39"><animate attributeName="opacity" values="0.39;0.16;0.39" dur="4.5s" begin="5.0s" repeatCount="indefinite"/></circle><circle cx="250.3" cy="40.8" r="0.7" fill="white" opacity="0.28"/><circle cx="175.8" cy="130.5" r="0.5" fill="white" opacity="0.25"/><circle cx="429.9" cy="43.0" r="0.9" fill="white" opacity="0.33"/><circle cx="277.5" cy="94.9" r="0.5" fill="white" opacity="0.32"/><circle cx="120.8" cy="133.3" r="1.1" fill="white" opacity="0.22"/><circle cx="431.5" cy="43.4" r="0.5" fill="white" opacity="0.44"/><circle cx="136.5" cy="168.8" r="0.9" fill="white" opacity="0.19"><animate attributeName="opacity" values="0.19;0.08;0.19" dur="8.8s" begin="6.0s" repeatCount="indefinite"/></circle><circle cx="380.4" cy="196.4" r="0.7" fill="white" opacity="0.27"><animate attributeName="opacity" values="0.27;0.11;0.27" dur="6.1s" begin="7.6s" repeatCount="indefinite"/></circle><circle cx="453.9" cy="68.4" r="1.1" fill="white" opacity="0.16"/><circle cx="362.0" cy="185.9" r="0.5" fill="white" opacity="0.35"/><circle cx="46.9" cy="30.6" r="0.4" fill="white" opacity="0.42"><animate attributeName="opacity" values="0.42;0.18;0.42" dur="7.2s" begin="0.3s" repeatCount="indefinite"/></circle><circle cx="298.6" cy="48.9" r="0.7" fill="white" opacity="0.25"/><circle cx="288.1" cy="184.9" r="0.5" fill="white" opacity="0.16"/><circle cx="112.9" cy="198.0" r="0.5" fill="white" opacity="0.31"><animate attributeName="opacity" values="0.31;0.13;0.31" dur="3.0s" begin="6.7s" repeatCount="indefinite"/></circle><circle cx="212.6" cy="190.0" r="0.7" fill="white" opacity="0.16"/><circle cx="30.0" cy="50.7" r="0.9" fill="white" opacity="0.42"/><circle cx="295.4" cy="48.9" r="0.9" fill="white" opacity="0.44"/><circle cx="31.3" cy="2.6" r="0.6" fill="white" opacity="0.38"><animate attributeName="opacity" values="0.38;0.16;0.38" dur="8.7s" begin="6.6s" repeatCount="indefinite"/></circle><circle cx="402.3" cy="147.4" r="0.9" fill="white" opacity="0.41"/><circle cx="323.5" cy="193.6" r="1.0" fill="white" opacity="0.17"/><circle cx="81.5" cy="54.2" r="1.0" fill="white" opacity="0.19"><animate attributeName="opacity" values="0.19;0.08;0.19" dur="8.9s" begin="3.4s" repeatCount="indefinite"/></circle><circle cx="380.7" cy="77.0" r="0.5" fill="white" opacity="0.14"/><circle cx="191.8" cy="55.8" r="1.1" fill="white" opacity="0.27"><animate attributeName="opacity" values="0.27;0.11;0.27" dur="7.4s" begin="6.7s" repeatCount="indefinite"/></circle><circle cx="318.5" cy="150.2" r="0.6" fill="white" opacity="0.35"><animate attributeName="opacity" values="0.35;0.15;0.35" dur="4.0s" begin="0.7s" repeatCount="indefinite"/></circle><circle cx="20.5" cy="147.8" r="1.0" fill="white" opacity="0.33"/><circle cx="21.7" cy="176.8" r="0.2" fill="white" opacity="0.46"/><circle cx="18.9" cy="190.3" r="0.2" fill="white" opacity="0.25"><animate attributeName="opacity" values="0.25;0.11;0.25" dur="5.5s" begin="6.5s" repeatCount="indefinite"/></circle><circle cx="341.0" cy="11.6" r="0.8" fill="white" opacity="0.28"/><circle cx="170.9" cy="155.0" r="0.5" fill="white" opacity="0.13"/><circle cx="261.1" cy="171.7" r="0.3" fill="white" opacity="0.20"/><circle cx="408.1" cy="171.2" r="0.5" fill="white" opacity="0.18"/><circle cx="248.3" cy="161.2" r="0.8" fill="white" opacity="0.46"/><circle cx="432.0" cy="24.8" r="0.7" fill="white" opacity="0.27"/><circle cx="406.6" cy="102.3" r="0.9" fill="white" opacity="0.21"/><circle cx="363.2" cy="186.9" r="0.6" fill="white" opacity="0.33"/><circle cx="386.3" cy="17.4" r="0.6" fill="white" opacity="0.42"/><circle cx="240.2" cy="167.9" r="0.4" fill="white" opacity="0.46"/><circle cx="200.6" cy="18.2" r="0.5" fill="white" opacity="0.29"/><circle cx="183.4" cy="114.9" r="0.8" fill="white" opacity="0.42"/><circle cx="380.5" cy="30.9" r="0.6" fill="white" opacity="0.23"/><circle cx="355.5" cy="108.5" r="0.5" fill="white" opacity="0.23"/><circle cx="40.9" cy="5.7" r="0.4" fill="white" opacity="0.13"><animate attributeName="opacity" values="0.13;0.05;0.13" dur="4.2s" begin="3.0s" repeatCount="indefinite"/></circle><line x1="242" y1="14" x2="242" y2="186" stroke="#0d2a4a" stroke-width="1"/>
+  <rect x="20" y="22" width="3" height="14" rx="1.5" fill="#0d87cd"/>
+<text x="30" y="34" fill="#e5ecf6" font-size="13" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">GitHub Profile</text>
+  <text x="218" y="34" fill="#7a9cc0" font-size="11" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="end">@khanh1912005</text>
+  
+  <text x="22" y="54" fill="#4a6a8a" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">COMMITS</text>
+  <text x="218" y="54" fill="#0d87cd" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">14</text>
+  <rect x="22" y="58" width="196" height="3" rx="1.5" fill="#0d1a2e"/>
+<rect x="22" y="58" width="2" height="3" rx="1.5" fill="#0d87cd" opacity="0.75"/>
+  <text x="22" y="78" fill="#4a6a8a" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">STARS</text>
+  <text x="218" y="78" fill="#f59e0b" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">2</text>
+  <rect x="22" y="82" width="196" height="3" rx="1.5" fill="#0d1a2e"/>
+<rect x="22" y="82" width="2" height="3" rx="1.5" fill="#f59e0b" opacity="0.75"/>
+  <text x="22" y="102" fill="#4a6a8a" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">PULL REQUESTS</text>
+  <text x="218" y="102" fill="#22c55e" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">0</text>
+  <rect x="22" y="106" width="196" height="3" rx="1.5" fill="#0d1a2e"/>
+<rect x="22" y="106" width="2" height="3" rx="1.5" fill="#22c55e" opacity="0.75"/>
+  <text x="22" y="126" fill="#4a6a8a" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">REPOS</text>
+  <text x="218" y="126" fill="#7a9cc0" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">3</text>
+  <rect x="22" y="130" width="196" height="3" rx="1.5" fill="#0d1a2e"/>
+<rect x="22" y="130" width="12" height="3" rx="1.5" fill="#7a9cc0" opacity="0.75"/>
+  <text x="22" y="150" fill="#4a6a8a" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">FOLLOWERS</text>
+  <text x="218" y="150" fill="#7a9cc0" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">0</text>
+  <rect x="22" y="154" width="196" height="3" rx="1.5" fill="#0d1a2e"/>
+<rect x="22" y="154" width="2" height="3" rx="1.5" fill="#7a9cc0" opacity="0.75"/>
+  <rect x="22" y="188" width="6" height="2" rx="1" fill="#0d87cd" opacity="0.41"/><rect x="30" y="186" width="6" height="4" rx="1" fill="#0d87cd" opacity="0.52"/><rect x="38" y="188" width="6" height="2" rx="1" fill="#0d87cd" opacity="0.30"/><rect x="46" y="188" width="6" height="2" rx="1" fill="#0d87cd" opacity="0.41"/><rect x="54" y="184" width="6" height="6" rx="1" fill="#0d87cd" opacity="0.63"/><rect x="62" y="186" width="6" height="4" rx="1" fill="#0d87cd" opacity="0.52"/><rect x="70" y="180" width="6" height="10" rx="1" fill="#0d87cd" opacity="0.85"/>
+  <rect x="264" y="8" width="196" height="196" rx="98" fill="url(#pbg)"/>
+  <g clip-path="url(#orbClip)" opacity="0.07">
+    <line x1="276" y1="24" x2="276" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="292" y1="24" x2="292" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="308" y1="24" x2="308" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="324" y1="24" x2="324" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="340" y1="24" x2="340" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="356" y1="24" x2="356" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="372" y1="24" x2="372" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="388" y1="24" x2="388" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="404" y1="24" x2="404" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="420" y1="24" x2="420" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="436" y1="24" x2="436" y2="176" stroke="#0d87cd" stroke-width="0.5"/><line x1="452" y1="24" x2="452" y2="176" stroke="#0d87cd" stroke-width="0.5"/>
+    <line x1="280" y1="20" x2="432" y2="20" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="36" x2="432" y2="36" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="52" x2="432" y2="52" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="68" x2="432" y2="68" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="84" x2="432" y2="84" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="100" x2="432" y2="100" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="116" x2="432" y2="116" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="132" x2="432" y2="132" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="148" x2="432" y2="148" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="164" x2="432" y2="164" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="180" x2="432" y2="180" stroke="#0d87cd" stroke-width="0.5"/><line x1="280" y1="196" x2="432" y2="196" stroke="#0d87cd" stroke-width="0.5"/>
+  </g>
+  <line x1="280" y1="100" x2="432" y2="100" stroke="#0d87cd" stroke-width="0.4" opacity="0.18"/>
+  <line x1="356" y1="24" x2="356" y2="176" stroke="#0d87cd" stroke-width="0.4" opacity="0.18"/>
+  <line x1="302" y1="46" x2="410" y2="154" stroke="#0d87cd" stroke-width="0.4" opacity="0.12"/>
+  <line x1="410" y1="46" x2="302" y2="154" stroke="#0d87cd" stroke-width="0.4" opacity="0.12"/>
+  <circle cx="356" cy="100" r="30" fill="none" stroke="#0d87cd" stroke-width="1.2" opacity=".45"/>
+  <circle cx="356" cy="100" r="53" fill="none" stroke="#0d87cd" stroke-width=".8" opacity=".28"/>
+  <circle cx="356" cy="100" r="76" fill="none" stroke="#0d87cd" stroke-width=".5" opacity=".18"/>
+  <g clip-path="url(#orbClip)" filter="url(#pglow)">
+    <circle cx="356" cy="100" r="0" fill="none" stroke="#0d87cd" stroke-width="2">
+      <animate attributeName="r" from="0" to="76" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.6 1"/>
+      <animate attributeName="opacity" values="0.65;0.25;0" keyTimes="0;0.6;1" dur="3s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="2.5" to="0.4" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.6 1"/>
+    </circle>
+    <circle cx="356" cy="100" r="0" fill="none" stroke="#0d87cd" stroke-width="2">
+      <animate attributeName="r" from="0" to="76" dur="3s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.6 1"/>
+      <animate attributeName="opacity" values="0.65;0.25;0" keyTimes="0;0.6;1" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" from="2.5" to="0.4" dur="3s" begin="1.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.6 1"/>
+    </circle>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="28s" repeatCount="indefinite"/>
+    <circle class="odot odot-streak" cx="386" cy="100" r="8" fill="transparent"/>
+    <circle cx="386" cy="100" r="2.3000000000000003" fill="#a78bfa" filter="url(#pglow)" style="pointer-events:none"/>
+  </g><g>
+    <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="48s" repeatCount="indefinite"/>
+    <circle class="odot odot-commits" cx="409" cy="100" r="8" fill="transparent"/>
+    <circle cx="409" cy="100" r="2.228" fill="#0d87cd" filter="url(#pglow)" style="pointer-events:none"/>
+  </g><g>
+    <animateTransform attributeName="transform" type="rotate" from="180 356 100" to="540 356 100" dur="48s" repeatCount="indefinite"/>
+    <circle class="odot odot-prs" cx="409" cy="100" r="8" fill="transparent"/>
+    <circle cx="409" cy="100" r="2.2" fill="#22c55e" filter="url(#pglow)" style="pointer-events:none"/>
+  </g><g>
+    <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="75s" repeatCount="indefinite"/>
+    <circle class="odot odot-stars" cx="432" cy="100" r="8" fill="transparent"/>
+    <circle cx="432" cy="100" r="2.212" fill="#f59e0b" filter="url(#pglow)" style="pointer-events:none"/>
+  </g><g>
+    <animateTransform attributeName="transform" type="rotate" from="120 356 100" to="480 356 100" dur="75s" repeatCount="indefinite"/>
+    <circle class="odot odot-repos" cx="432" cy="100" r="8" fill="transparent"/>
+    <circle cx="432" cy="100" r="2.3800000000000003" fill="#7a9cc0" filter="url(#pglow)" style="pointer-events:none"/>
+  </g><g>
+    <animateTransform attributeName="transform" type="rotate" from="240 356 100" to="600 356 100" dur="75s" repeatCount="indefinite"/>
+    <circle class="odot odot-followers" cx="432" cy="100" r="8" fill="transparent"/>
+    <circle cx="432" cy="100" r="2.2" fill="#7a9cc0" filter="url(#pglow)" style="pointer-events:none"/>
+  </g>
+  <g filter="url(#pglow)" style="pointer-events:none">
+    <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="5s" repeatCount="indefinite"/>
+    <path d="M 356 100 L 432.00 100.00 A 76 76 0 0 0 430.34 84.20 Z" fill="#0d87cd" opacity="0.28"/>
+    <path d="M 356 100 L 430.34 84.20 A 76 76 0 0 0 425.43 69.09 Z" fill="#0d87cd" opacity="0.18"/>
+    <path d="M 356 100 L 425.43 69.09 A 76 76 0 0 0 417.49 55.33 Z" fill="#0d87cd" opacity="0.11"/>
+    <path d="M 356 100 L 417.49 55.33 A 76 76 0 0 0 406.85 43.52 Z" fill="#0d87cd" opacity="0.06"/>
+    <path d="M 356 100 L 406.85 43.52 A 76 76 0 0 0 394.00 34.18 Z" fill="#0d87cd" opacity="0.03"/>
+    <line x1="356" y1="100" x2="432.00" y2="100.00" stroke="#0d87cd" stroke-width="1.6" opacity="0.9"/>
+    <circle cx="432.00" cy="100.00" r="2.5" fill="#0d87cd" opacity="0.9"/>
+  </g>
+  <circle class="pcore" cx="356" cy="100" r="11" fill="#0d87cd" filter="url(#pglow)"/>
+  <circle cx="356" cy="100" r="5" fill="white" opacity=".95"/>
+  <g class="olabel olabel-streak">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#a78bfa" opacity="0.6" letter-spacing="1">STREAK </tspan><tspan font-size="12" font-weight="700" fill="#a78bfa">2 days</tspan></text>
+  </g><g class="olabel olabel-commits">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#0d87cd" opacity="0.6" letter-spacing="1">COMMITS </tspan><tspan font-size="12" font-weight="700" fill="#0d87cd">14</tspan></text>
+  </g><g class="olabel olabel-prs">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#22c55e" opacity="0.6" letter-spacing="1">PULL REQUESTS </tspan><tspan font-size="12" font-weight="700" fill="#22c55e">0</tspan></text>
+  </g><g class="olabel olabel-stars">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#f59e0b" opacity="0.6" letter-spacing="1">STARS </tspan><tspan font-size="12" font-weight="700" fill="#f59e0b">2</tspan></text>
+  </g><g class="olabel olabel-repos">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#7a9cc0" opacity="0.6" letter-spacing="1">REPOS </tspan><tspan font-size="12" font-weight="700" fill="#7a9cc0">3</tspan></text>
+  </g><g class="olabel olabel-followers">
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#7a9cc0" opacity="0.6" letter-spacing="1">FOLLOWERS </tspan><tspan font-size="12" font-weight="700" fill="#7a9cc0">0</tspan></text>
+  </g>
+  <g opacity="0">
+    <animateMotion dur="28s" repeatCount="indefinite" begin="0s" rotate="none">
+      <mpath href="#op30"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#a78bfa" fill-opacity="0.13" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#a78bfa" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">2 days</text>
+    <text x="0" y="-12" fill="#a78bfa" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">STREAK</text>
+  </g><g opacity="0">
+    <animateMotion dur="48s" repeatCount="indefinite" begin="0s" rotate="none">
+      <mpath href="#op53"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="4s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#0d87cd" fill-opacity="0.13" stroke="#0d87cd" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#0d87cd" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#0d87cd" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">14</text>
+    <text x="0" y="-12" fill="#0d87cd" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">COMMITS</text>
+  </g><g opacity="0">
+    <animateMotion dur="48s" repeatCount="indefinite" begin="-24s" rotate="none">
+      <mpath href="#op53"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="8s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#22c55e" fill-opacity="0.13" stroke="#22c55e" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#22c55e" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#22c55e" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">0</text>
+    <text x="0" y="-12" fill="#22c55e" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">PRS</text>
+  </g><g opacity="0">
+    <animateMotion dur="75s" repeatCount="indefinite" begin="0s" rotate="none">
+      <mpath href="#op76"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="12s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#f59e0b" fill-opacity="0.13" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#f59e0b" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">2</text>
+    <text x="0" y="-12" fill="#f59e0b" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">STARS</text>
+  </g><g opacity="0">
+    <animateMotion dur="75s" repeatCount="indefinite" begin="-25s" rotate="none">
+      <mpath href="#op76"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="16s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#7a9cc0" fill-opacity="0.13" stroke="#7a9cc0" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#7a9cc0" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#7a9cc0" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">3</text>
+    <text x="0" y="-12" fill="#7a9cc0" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">REPOS</text>
+  </g><g opacity="0">
+    <animateMotion dur="75s" repeatCount="indefinite" begin="-50s" rotate="none">
+      <mpath href="#op76"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="20s" repeatCount="indefinite"/>
+    <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#7a9cc0" fill-opacity="0.13" stroke="#7a9cc0" stroke-width="0.8" stroke-opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="-2" stroke="#7a9cc0" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="-20" fill="#7a9cc0" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">0</text>
+    <text x="0" y="-12" fill="#7a9cc0" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">FOLLOWERS</text>
+  </g><g>
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.5s" repeatCount="indefinite"/>
+    <line x1="266" y1="10" x2="286" y2="10" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="266" y1="10" x2="266" y2="30" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="446" y1="10" x2="426" y2="10" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="446" y1="10" x2="446" y2="30" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="266" y1="190" x2="286" y2="190" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="266" y1="190" x2="266" y2="170" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="446" y1="190" x2="426" y2="190" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+    <line x1="446" y1="190" x2="446" y2="170" stroke="#0d87cd" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

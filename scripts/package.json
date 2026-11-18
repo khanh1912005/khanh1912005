@@ -1,0 +1,20 @@
+{
+  "name": "github-stats",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step needed'",
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy ."
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.4.0",
+    "wrangler": "^3.60.0"
+  },
+  "dependencies": {
+    "@iconify-icons/logos": "^1.2.36",
+    "@phosphor-icons/core": "^2.1.1",
+    "simple-icons": "^16.23.0"
+  }
+}
