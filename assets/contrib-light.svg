@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="133" viewBox="0 0 460 133" role="img" aria-label="Contribution Graph">
+<polygon points="0,0 448,0 460,12 460,133 12,133 0,121" fill="#ffffff"/>
+<polygon points="0,0 448,0 460,12 460,133 12,133 0,121" fill="none" stroke="#d0d7de" stroke-width="1"/>
+
+<rect x="20" y="22" width="3" height="14" rx="1.5" fill="#0d87cd"/>
+<text x="30" y="34" fill="#1a2332" font-size="13" font-weight="600" font-family="ui-sans-serif,system-ui,sans-serif">Contribution Graph</text>
+<text x="20" y="66" fill="#506680" font-size="8" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Mon</text><text x="20" y="80" fill="#506680" font-size="8" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Wed</text><text x="20" y="94" fill="#506680" font-size="8" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">Fri</text>
+
+<text x="20" y="125" fill="#506680" font-size="10" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="start">0 contributions this year</text>
+</svg>
