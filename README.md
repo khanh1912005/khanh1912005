@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm Le Gia Khanh 👋</h1>
-<p align="center"><b>🤖 AI Engineer & Backend Developer | Python • FastAPI • NumPy</b></p>
+<p align="center"><b>🤖 AI Engineer| Python • FastAPI • NumPy</b></p>
 
 <p align="center">
   <a href="mailto:khanh2292005@gmail.com">
