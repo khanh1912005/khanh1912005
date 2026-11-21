@@ -44,9 +44,9 @@
   <rect x="22" y="106" width="196" height="3" rx="1.5" fill="#eef2f6"/>
 <rect x="22" y="106" width="2" height="3" rx="1.5" fill="#16a34a" opacity="0.75"/>
   <text x="22" y="126" fill="#8090a0" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">REPOS</text>
-  <text x="218" y="126" fill="#506680" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">3</text>
+  <text x="218" y="126" fill="#506680" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">4</text>
   <rect x="22" y="130" width="196" height="3" rx="1.5" fill="#eef2f6"/>
-<rect x="22" y="130" width="12" height="3" rx="1.5" fill="#506680" opacity="0.75"/>
+<rect x="22" y="130" width="16" height="3" rx="1.5" fill="#506680" opacity="0.75"/>
   <text x="22" y="150" fill="#8090a0" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">FOLLOWERS</text>
   <text x="218" y="150" fill="#506680" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">0</text>
   <rect x="22" y="154" width="196" height="3" rx="1.5" fill="#eef2f6"/>
@@ -79,7 +79,7 @@
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="28s" repeatCount="indefinite"/>
     <circle class="odot odot-streak" cx="386" cy="100" r="8" fill="transparent"/>
-    <circle cx="386" cy="100" r="2.3000000000000003" fill="#a78bfa" filter="url(#pglow)" style="pointer-events:none"/>
+    <circle cx="386" cy="100" r="2.25" fill="#a78bfa" filter="url(#pglow)" style="pointer-events:none"/>
   </g><g>
     <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="48s" repeatCount="indefinite"/>
     <circle class="odot odot-commits" cx="409" cy="100" r="8" fill="transparent"/>
@@ -95,7 +95,7 @@
   </g><g>
     <animateTransform attributeName="transform" type="rotate" from="120 356 100" to="480 356 100" dur="75s" repeatCount="indefinite"/>
     <circle class="odot odot-repos" cx="432" cy="100" r="8" fill="transparent"/>
-    <circle cx="432" cy="100" r="2.3800000000000003" fill="#506680" filter="url(#pglow)" style="pointer-events:none"/>
+    <circle cx="432" cy="100" r="2.4400000000000004" fill="#506680" filter="url(#pglow)" style="pointer-events:none"/>
   </g><g>
     <animateTransform attributeName="transform" type="rotate" from="240 356 100" to="600 356 100" dur="75s" repeatCount="indefinite"/>
     <circle class="odot odot-followers" cx="432" cy="100" r="8" fill="transparent"/>
@@ -114,7 +114,7 @@
   <circle class="pcore" cx="356" cy="100" r="11" fill="#0d87cd" filter="url(#pglow)"/>
   <circle cx="356" cy="100" r="5" fill="white" opacity=".95"/>
   <g class="olabel olabel-streak">
-    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#a78bfa" opacity="0.6" letter-spacing="1">STREAK </tspan><tspan font-size="12" font-weight="700" fill="#a78bfa">2 days</tspan></text>
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#a78bfa" opacity="0.6" letter-spacing="1">STREAK </tspan><tspan font-size="12" font-weight="700" fill="#a78bfa">1 days</tspan></text>
   </g><g class="olabel olabel-commits">
     <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#0d87cd" opacity="0.6" letter-spacing="1">COMMITS </tspan><tspan font-size="12" font-weight="700" fill="#0d87cd">9</tspan></text>
   </g><g class="olabel olabel-prs">
@@ -122,7 +122,7 @@
   </g><g class="olabel olabel-stars">
     <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#d97706" opacity="0.6" letter-spacing="1">STARS </tspan><tspan font-size="12" font-weight="700" fill="#d97706">2</tspan></text>
   </g><g class="olabel olabel-repos">
-    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#506680" opacity="0.6" letter-spacing="1">REPOS </tspan><tspan font-size="12" font-weight="700" fill="#506680">3</tspan></text>
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#506680" opacity="0.6" letter-spacing="1">REPOS </tspan><tspan font-size="12" font-weight="700" fill="#506680">4</tspan></text>
   </g><g class="olabel olabel-followers">
     <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#506680" opacity="0.6" letter-spacing="1">FOLLOWERS </tspan><tspan font-size="12" font-weight="700" fill="#506680">0</tspan></text>
   </g>
@@ -133,7 +133,7 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="0s" repeatCount="indefinite"/>
     <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#a78bfa" fill-opacity="0.13" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5"/>
     <line x1="0" y1="-8" x2="0" y2="-2" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="0" y="-20" fill="#a78bfa" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">2 days</text>
+    <text x="0" y="-20" fill="#a78bfa" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">1 days</text>
     <text x="0" y="-12" fill="#a78bfa" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">STREAK</text>
   </g><g opacity="0">
     <animateMotion dur="48s" repeatCount="indefinite" begin="0s" rotate="none">
@@ -169,7 +169,7 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="16s" repeatCount="indefinite"/>
     <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#506680" fill-opacity="0.13" stroke="#506680" stroke-width="0.8" stroke-opacity="0.5"/>
     <line x1="0" y1="-8" x2="0" y2="-2" stroke="#506680" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="0" y="-20" fill="#506680" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">3</text>
+    <text x="0" y="-20" fill="#506680" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">4</text>
     <text x="0" y="-12" fill="#506680" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">REPOS</text>
   </g><g opacity="0">
     <animateMotion dur="75s" repeatCount="indefinite" begin="-50s" rotate="none">
