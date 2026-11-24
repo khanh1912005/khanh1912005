@@ -42,7 +42,7 @@
     <rect x="310.6666666666667" y="142" width="137.33333333333334" height="82" rx="8" fill="none" stroke="#7a9cc0" stroke-width="1" opacity="0.3"/>
     <circle cx="379.33333333333337" cy="160" r="11" fill="#7a9cc0" opacity="0.12"/>
     <text x="379.33333333333337" y="164" fill="#7a9cc0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">★</text>
-    <text x="379.33333333333337" y="182" fill="#7a9cc0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">5</text>
+    <text x="379.33333333333337" y="182" fill="#7a9cc0" font-size="14" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">6</text>
     <circle cx="354.3" cy="202" r="2.5" fill="#7a9cc0"/><circle cx="364.3" cy="202" r="2.5" fill="#7a9cc0"/><circle cx="374.3" cy="202" r="2.5" fill="none" stroke="#7a9cc0" stroke-width="0.8" opacity="0.3"/><circle cx="384.3" cy="202" r="2.5" fill="none" stroke="#7a9cc0" stroke-width="0.8" opacity="0.3"/><circle cx="394.3" cy="202" r="2.5" fill="none" stroke="#7a9cc0" stroke-width="0.8" opacity="0.3"/><circle cx="404.3" cy="202" r="2.5" fill="none" stroke="#7a9cc0" stroke-width="0.8" opacity="0.3"/>
     <text x="379.33333333333337" y="216" fill="#506680" font-size="9" font-weight="normal" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="middle">Repos</text>
 </svg>

@@ -61,8 +61,21 @@ function renderOrbBadge(d: OrbDot, idx: number): string {
   </g>`;
 }
 
-function dotR(raw: number, max: number): number {
-  return 2.2 + Math.min(1, raw / max) * 3.0;
+function AdaptiveMax(raw: number, tiers: number[]): number {
+  for (const t of tiers) {
+    if (raw < t) return t;
+  }
+  return Math.max(raw * 1.25, tiers[tiers.length - 1]);
+}
+
+function calcBarPct(raw: number, tiers: number[]): number {
+  if (raw <= 0) return 0.16; // Visible baseline fill even when stat is 0
+  const target = AdaptiveMax(raw, tiers);
+  return Math.min(0.96, 0.24 + 0.72 * Math.min(1, raw / target));
+}
+
+function dotR(raw: number, tiers: number[]): number {
+  return 2.4 + calcBarPct(raw, tiers) * 2.8;
 }
 
 function cursorUrl(color: string): string {
@@ -144,13 +157,23 @@ export function renderProfile(s: StatsData, streak: StreakData, theme: Theme = T
     ${gOff.map(d => `<line x1="${CX - 76}" y1="${CY + d}" x2="${CX + 76}" y2="${CY + d}" stroke="${theme.primary}" stroke-width="0.5"/>`).join('')}
   </g>`;
 
+  const STAT_TIERS: Record<string, number[]> = {
+    commits:       [15, 50, 150, 500, 1500],
+    stars:         [5, 15, 50, 200, 500],
+    prs:           [5, 15, 50, 200],
+    repos:         [10, 25, 50, 100],
+    followers:     [5, 15, 50, 200],
+    streak:        [7, 14, 30, 60],
+    contributions: [20, 50, 200, 1000],
+  };
+
   const dots: OrbDot[] = [
-    { r: 30, startDeg: 0,   dur: 28, size: dotR(streak.currentStreak, 60),   fill: '#a78bfa',       id: 'streak',    label: 'Streak',        value: `${streak.currentStreak} days` },
-    { r: 53, startDeg: 0,   dur: 48, size: dotR(s.totalCommits, 1500), fill: theme.primary,   id: 'commits',   label: 'Commits',       value: formatNumber(s.totalCommits) },
-    { r: 53, startDeg: 180, dur: 48, size: dotR(s.totalPRs, 200),     fill: theme.success,   id: 'prs',       label: 'Pull Requests', value: formatNumber(s.totalPRs) },
-    { r: 76, startDeg: 0,   dur: 75, size: dotR(s.totalStars, 500),   fill: theme.warning,   id: 'stars',     label: 'Stars',         value: formatNumber(s.totalStars) },
-    { r: 76, startDeg: 120, dur: 75, size: dotR(s.totalRepos, 50),    fill: theme.textMuted, id: 'repos',     label: 'Repos',         value: String(s.totalRepos) },
-    { r: 76, startDeg: 240, dur: 75, size: dotR(s.followers, 200),    fill: theme.textMuted, id: 'followers', label: 'Followers',     value: String(s.followers) },
+    { r: 30, startDeg: 0,   dur: 28, size: dotR(streak.currentStreak, STAT_TIERS.streak),   fill: '#a78bfa',       id: 'streak',    label: 'Streak',        value: `${streak.currentStreak} days` },
+    { r: 53, startDeg: 0,   dur: 48, size: dotR(s.totalCommits, STAT_TIERS.commits), fill: theme.primary,   id: 'commits',   label: 'Commits',       value: formatNumber(s.totalCommits) },
+    { r: 53, startDeg: 180, dur: 48, size: dotR(s.totalPRs, STAT_TIERS.prs),     fill: theme.success,   id: 'prs',       label: 'Pull Requests', value: formatNumber(s.totalPRs) },
+    { r: 76, startDeg: 0,   dur: 75, size: dotR(s.totalStars, STAT_TIERS.stars),   fill: theme.warning,   id: 'stars',     label: 'Stars',         value: formatNumber(s.totalStars) },
+    { r: 76, startDeg: 120, dur: 75, size: dotR(s.totalRepos, STAT_TIERS.repos),    fill: theme.textMuted, id: 'repos',     label: 'Repos',         value: String(s.totalRepos) },
+    { r: 76, startDeg: 240, dur: 75, size: dotR(s.followers, STAT_TIERS.followers),    fill: theme.textMuted, id: 'followers', label: 'Followers',     value: String(s.followers) },
   ];
   const dotsSvg = dots.map(d => renderOrbDot(CX, CY, d)).join('');
   const labelsSvg = dots.map(d => renderOrbLabel(CX, H - 8, d)).join('');
@@ -192,11 +215,6 @@ export function renderProfile(s: StatsData, streak: StreakData, theme: Theme = T
   const STAT_START = 54;
   const STAT_ROW_H = 24;
 
-  const STAT_MAX: Record<string, number> = {
-    commits: 1500, stars: 500, prs: 200, repos: 50,
-    followers: 200, streak: 60, contributions: 1000,
-  };
-
   const ALL_STATS = [
     { key: 'commits',       label: 'Commits',       val: formatNumber(s.totalCommits),            raw: s.totalCommits,            color: theme.primary },
     { key: 'stars',         label: 'Stars',         val: formatNumber(s.totalStars),              raw: s.totalStars,              color: theme.warning },
@@ -209,11 +227,11 @@ export function renderProfile(s: StatsData, streak: StreakData, theme: Theme = T
   const visibleStats = ALL_STATS.filter(st => !hide.has(st.key));
   const statBlocks = visibleStats.map((st, i) => {
     const y = STAT_START + i * STAT_ROW_H;
-    const pct = Math.min(1, st.raw / (STAT_MAX[st.key] ?? 100));
+    const pct = calcBarPct(st.raw, STAT_TIERS[st.key] ?? [10, 50, 100]);
     return `
   ${text(STAT_X, y, st.label.toUpperCase(), { size: 7.5, fill: theme.textDim, font: 'ui-monospace,SFMono-Regular,monospace' }, theme)}
   ${text(STAT_X + STAT_W, y, st.val, { size: 13, weight: '700', fill: st.color, anchor: 'end' }, theme)}
-  ${progressBar(STAT_X, y + 4, STAT_W, 3, pct, st.color, theme, 0.75)}`;
+  ${progressBar(STAT_X, y + 4, STAT_W, 3, pct, st.color, theme, 0.85)}`;
   }).join('');
 
   const weekly = streak.weeklyContributions ?? [];

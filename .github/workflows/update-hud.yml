@@ -2,8 +2,8 @@ name: Update Profile Radar HUD & Widgets
 
 on:
   schedule:
-    # Runs every 6 hours
-    - cron: "0 */6 * * *"
+    # Runs every 3 hours
+    - cron: "0 */3 * * *"
   push:
     branches:
       - main
