@@ -48,6 +48,13 @@ async function getStats(): Promise<{ stats: StatsData; streak: StreakData; langs
               stargazerCount
               forkCount
               watchers { totalCount }
+              defaultBranchRef {
+                target {
+                  ... on Commit {
+                    history { totalCount }
+                  }
+                }
+              }
               languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
                 edges { size node { name } }
               }
@@ -78,23 +85,24 @@ async function getStats(): Promise<{ stats: StatsData; streak: StreakData; langs
       }`;
 
       const { user: u } = await gql(query, { login: USERNAME, from, to });
-      let totalStars = 0, totalForks = 0, totalWatchers = 0;
+      let totalStars = 0, totalForks = 0, totalWatchers = 0, repoCommitsSum = 0;
       const langs: LangData = {};
 
       for (const r of u.repositories.nodes) {
         totalStars += r.stargazerCount;
         totalForks += r.forkCount;
         totalWatchers += r.watchers.totalCount;
+        repoCommitsSum += r.defaultBranchRef?.target?.history?.totalCount || 0;
         for (const e of r.languages?.edges || []) {
           langs[e.node.name] = (langs[e.node.name] || 0) + e.size;
         }
       }
 
       const c = u.contributionsCollection;
-      const totalCommits = c.totalCommitContributions;
-      const totalPRs = c.totalPullRequestContributions;
-      const totalIssues = c.totalIssueContributions;
-      const contributions = totalCommits + totalPRs + totalIssues;
+      const totalCommits = Math.max(c.totalCommitContributions, repoCommitsSum);
+      const totalPRs = Math.max(c.totalPullRequestContributions, u.pullRequests.totalCount);
+      const totalIssues = Math.max(c.totalIssueContributions, u.issues.totalCount);
+      const contributions = Math.max(c.contributionCalendar.totalContributions, totalCommits + totalPRs + totalIssues);
       const yearsOnGH = Math.max(1, Math.floor((Date.now() - new Date(u.createdAt).getTime()) / (365.25 * 864e5)));
 
       const stats: StatsData = {
@@ -140,7 +148,7 @@ async function getStats(): Promise<{ stats: StatsData; streak: StreakData; langs
       const streak: StreakData = {
         currentStreak,
         longestStreak,
-        totalContributions: c.contributionCalendar.totalContributions,
+        totalContributions: contributions,
         lastContribution: lastContribution || new Date().toISOString().split('T')[0],
         currentStreakStart: '',
         currentStreakEnd: lastContribution || '',
@@ -151,7 +159,7 @@ async function getStats(): Promise<{ stats: StatsData; streak: StreakData; langs
       };
 
       const contrib: ContribData = {
-        totalContributions: c.contributionCalendar.totalContributions,
+        totalContributions: contributions,
         days: days.map(d => ({ date: d.date, count: d.count, level: d.count > 4 ? 4 : d.count })),
       };
 
