@@ -144,9 +144,11 @@ export function renderProfile(s: StatsData, streak: StreakData, theme: Theme = T
 
   // Center piece: avatar image or glowing core
   const center = avatar && s.avatarUrl
-    ? `<image href="${s.avatarUrl}" x="${CX - AVATAR_R}" y="${CY - AVATAR_R}" width="${AVATAR_R * 2}" height="${AVATAR_R * 2}" clip-path="url(#avClip)" opacity=".92"/>
-  <circle cx="${CX}" cy="${CY}" r="${AVATAR_R}" fill="none" stroke="${theme.primary}" stroke-width="1.5" opacity=".7"/>
-  <circle cx="${CX}" cy="${CY}" r="${AVATAR_R + 4}" fill="none" stroke="${theme.primary}" stroke-width=".6" stroke-dasharray="3,3" opacity=".4"/>`
+    ? `<image href="${s.avatarUrl}" x="${CX - AVATAR_R}" y="${CY - AVATAR_R}" width="${AVATAR_R * 2}" height="${AVATAR_R * 2}" clip-path="url(#avClip)" preserveAspectRatio="xMidYMid slice" opacity=".95"/>
+  <circle cx="${CX}" cy="${CY}" r="${AVATAR_R}" fill="none" stroke="${theme.primary}" stroke-width="1.5" opacity=".85"/>
+  <circle cx="${CX}" cy="${CY}" r="${AVATAR_R + 3.5}" fill="none" stroke="#a78bfa" stroke-width=".9" stroke-dasharray="4,3" opacity=".65">
+    <animateTransform attributeName="transform" type="rotate" from="0 ${CX} ${CY}" to="360 ${CX} ${CY}" dur="18s" repeatCount="indefinite"/>
+  </circle>`
     : `<circle class="pcore" cx="${CX}" cy="${CY}" r="11" fill="${theme.primary}" filter="url(#pglow)"/>
   <circle cx="${CX}" cy="${CY}" r="5" fill="white" opacity=".95"/>`;
 

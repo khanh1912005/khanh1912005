@@ -1,4 +1,4 @@
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { renderProfile } from './src/renderers/profile';
 import { renderStats } from './src/renderers/stats';
@@ -235,9 +235,16 @@ async function main() {
   const outDir = process.env.OUT_DIR || join(__dirname, '..', 'assets');
   mkdirSync(outDir, { recursive: true });
 
+  // Embed animated radar avatar as base64 data URI if present in assets/avatar-radar.gif
+  const radarGifPath = join(outDir, 'avatar-radar.gif');
+  if (existsSync(radarGifPath)) {
+    const b64 = readFileSync(radarGifPath).toString('base64');
+    stats.avatarUrl = `data:image/gif;base64,${b64}`;
+  }
+
   // 1. Profile HUD (Radar)
-  const profileDark = renderProfile(stats, streak, darkTheme, new Set(['contributions', 'streak']));
-  const profileLight = renderProfile(stats, streak, lightTheme, new Set(['contributions', 'streak']));
+  const profileDark = renderProfile(stats, streak, darkTheme, new Set(['contributions', 'streak']), true);
+  const profileLight = renderProfile(stats, streak, lightTheme, new Set(['contributions', 'streak']), true);
   writeFileSync(join(outDir, 'profile.svg'), profileDark);
   writeFileSync(join(outDir, 'profile-light.svg'), profileLight);
 
