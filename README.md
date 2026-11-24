@@ -17,8 +17,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg">
-    <img src="assets/profile.svg" alt="Profile HUD" width="100%">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile-light.svg?v=2">
+    <img src="assets/profile.svg?v=2" alt="Profile HUD" width="100%">
   </picture>
 </div>
 
