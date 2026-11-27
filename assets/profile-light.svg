@@ -32,9 +32,9 @@
   <text x="218" y="34" fill="#506680" font-size="11" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="end">@khanh1912005</text>
   
   <text x="22" y="54" fill="#8090a0" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">COMMITS</text>
-  <text x="218" y="54" fill="#0d87cd" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">40</text>
+  <text x="218" y="54" fill="#0d87cd" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">41</text>
   <rect x="22" y="58" width="196" height="3" rx="1.5" fill="#eef2f6"/>
-<rect x="22" y="58" width="160" height="3" rx="1.5" fill="#0d87cd" opacity="0.85"/>
+<rect x="22" y="58" width="163" height="3" rx="1.5" fill="#0d87cd" opacity="0.85"/>
   <text x="22" y="78" fill="#8090a0" font-size="7.5" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="start">STARS</text>
   <text x="218" y="78" fill="#d97706" font-size="13" font-weight="700" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">2</text>
   <rect x="22" y="82" width="196" height="3" rx="1.5" fill="#eef2f6"/>
@@ -83,7 +83,7 @@
   </g><g>
     <animateTransform attributeName="transform" type="rotate" from="0 356 100" to="360 356 100" dur="48s" repeatCount="indefinite"/>
     <circle class="odot odot-commits" cx="409" cy="100" r="8" fill="transparent"/>
-    <circle cx="409" cy="100" r="4.684799999999999" fill="#0d87cd" filter="url(#pglow)" style="pointer-events:none"/>
+    <circle cx="409" cy="100" r="4.7251199999999995" fill="#0d87cd" filter="url(#pglow)" style="pointer-events:none"/>
   </g><g>
     <animateTransform attributeName="transform" type="rotate" from="180 356 100" to="540 356 100" dur="48s" repeatCount="indefinite"/>
     <circle class="odot odot-prs" cx="409" cy="100" r="8" fill="transparent"/>
@@ -116,7 +116,7 @@
   <g class="olabel olabel-streak">
     <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#a78bfa" opacity="0.6" letter-spacing="1">STREAK </tspan><tspan font-size="12" font-weight="700" fill="#a78bfa">2 days</tspan></text>
   </g><g class="olabel olabel-commits">
-    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#0d87cd" opacity="0.6" letter-spacing="1">COMMITS </tspan><tspan font-size="12" font-weight="700" fill="#0d87cd">40</tspan></text>
+    <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#0d87cd" opacity="0.6" letter-spacing="1">COMMITS </tspan><tspan font-size="12" font-weight="700" fill="#0d87cd">41</tspan></text>
   </g><g class="olabel olabel-prs">
     <text x="356" y="192" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,monospace"><tspan font-size="7" fill="#16a34a" opacity="0.6" letter-spacing="1">PULL REQUESTS </tspan><tspan font-size="12" font-weight="700" fill="#16a34a">0</tspan></text>
   </g><g class="olabel olabel-stars">
@@ -142,7 +142,7 @@
     <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.22;0.38;0.52;1" dur="24s" begin="4s" repeatCount="indefinite"/>
     <rect x="-28" y="-34" width="56" height="26" rx="5" fill="#0d87cd" fill-opacity="0.13" stroke="#0d87cd" stroke-width="0.8" stroke-opacity="0.5"/>
     <line x1="0" y1="-8" x2="0" y2="-2" stroke="#0d87cd" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="0" y="-20" fill="#0d87cd" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">40</text>
+    <text x="0" y="-20" fill="#0d87cd" font-size="12" font-weight="700" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle">41</text>
     <text x="0" y="-12" fill="#0d87cd" font-size="7" font-weight="normal" font-family="ui-monospace,SFMono-Regular,monospace" text-anchor="middle" opacity="0.65">COMMITS</text>
   </g><g opacity="0">
     <animateMotion dur="48s" repeatCount="indefinite" begin="-24s" rotate="none">
